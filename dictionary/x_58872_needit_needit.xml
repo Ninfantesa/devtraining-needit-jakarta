@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element label="Manager Name" max_length="32" name="u_reference_5" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Department" max_length="40" name="u_req_department" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last name" mandatory="true" max_length="250" name="u_req_last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Manager" max_length="250" name="u_req_manager" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="100" name="u_req_name" type="string"/>
+    </element>
+</database>
